@@ -1,0 +1,25 @@
+SELECT * FROM `obesity-data-vis.LakeCounty.Obesity` ORDER BY Obesity DESC;
+
+SELECT * FROM `obesity-data-vis.LakeCounty.DMV`ORDER BY year DESC;
+
+SELECT * FROM `obesity-data-vis.LakeCounty.DMV`WHERE state = "Connecticut (2)";
+
+UPDATE `obesity-data-vis.LakeCounty.DMV`SET state = "Connecticut" WHERE state = "Connecticut (2)";
+UPDATE `obesity-data-vis.LakeCounty.DMV`SET state = "Illinois" WHERE state = "Illinois (2)";
+UPDATE `obesity-data-vis.LakeCounty.DMV`SET state = "Kansas" WHERE state = "Kansas (2)";
+UPDATE `obesity-data-vis.LakeCounty.DMV`SET state = "Maine" WHERE state = "Maine (2)";
+UPDATE `obesity-data-vis.LakeCounty.DMV`SET state = "Massachusetts" WHERE state = "Massachusetts (2)";
+UPDATE `obesity-data-vis.LakeCounty.DMV`SET state = "Michigan" WHERE state = "Michigan (2)";
+UPDATE `obesity-data-vis.LakeCounty.DMV`SET state = "Minnesota" WHERE state = "Minnesota (2)";
+UPDATE `obesity-data-vis.LakeCounty.DMV`SET state = "Missouri" WHERE state = "Missouri (2)";
+UPDATE `obesity-data-vis.LakeCounty.DMV`SET state = "Nevada" WHERE state = "Nevada (2)";
+UPDATE `obesity-data-vis.LakeCounty.DMV`SET state = "New Jersey" WHERE state = "New Jersey (2)";
+UPDATE `obesity-data-vis.LakeCounty.DMV`SET state = "Oklahoma" WHERE state = "Oklahoma (2)";
+UPDATE `obesity-data-vis.LakeCounty.DMV`SET state = "Vermont" WHERE state = "Vermont (2)";
+UPDATE `obesity-data-vis.LakeCounty.DMV`SET state = "Washington" WHERE state = "Washington (2)";
+UPDATE `obesity-data-vis.LakeCounty.DMV`SET state = "West Virginia" WHERE state = "West Virginia (2)";
+UPDATE `obesity-data-vis.LakeCounty.DMV`SET state = "Wisconsin" WHERE state = "Wisconsin (2)";
+
+SELECT * FROM `obesity-data-vis.LakeCounty.DMV` ORDER BY state DESC;
+SELECT * FROM `obesity-data-vis.LakeCounty.DMV` WHERE year = 2015;
+SELECT NAME, Obesity FROM `obesity-data-vis.LakeCounty.Obesity`;
